@@ -1,6 +1,8 @@
 # Change Prompt Editor Area
 
-Warn the user that he/she will lose unsaved changes when a new item loaded.
+Prompt/Warn the user that he/she will lose unsaved changes when a new item loaded.
+
+![Demo](/../screenshots/demo.gif?raw=true "The prompt in action")
 
 
 ## Installation
