@@ -1,0 +1,20 @@
+<window title="${arg.title}" sclass="z-messagebox-window ${arg.sclass}"
+        border="normal" width="260pt" closable="false"
+        use="org.zkoss.zul.impl.MessageboxDlg" xmlns:w="client">
+    <hbox>
+        <div sclass="${arg.icon}"/>
+        <vbox>
+            <div sclass="z-messagebox">
+                <label value="${arg.message}" multiline="true"
+                       w:onBind="zul.wnd.Messagebox.onBind(this, '${empty arg.width ? 400: arg.width}')"/>
+            </div>
+            <div if="${not empty arg.saveDisabled}" sclass="z-messagebox">
+                <label value="${arg.saveDisabled}" multiline="true" style="color: #ff3b30;"/>
+            </div>
+        </vbox>
+    </hbox>
+    <separator spacing="15px"/>
+    <hlayout id="buttons" sclass="z-messagebox-buttons" spacing="auto">
+        <custom-attributes button.sclass="z-messagebox-button"/><!-- CSS class for buttons -->
+    </hlayout>
+</window>

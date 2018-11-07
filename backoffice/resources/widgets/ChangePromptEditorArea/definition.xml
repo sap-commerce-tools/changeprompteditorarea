@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget-definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:noNamespaceSchemaLocation="http://www.hybris.com/schema/cockpitng/widget-definition.xsd"
+                   id="mpern.sap.commerce.backoffice.widgets.changeprompteditorarea"
+                   extends="com.hybris.cockpitng.backoffice.defaultEditorArea">
+    <name>Change Prompt Editor Area</name>
+    <author>mpern</author>
+    <version>1.0</version>
+    <controller class="mpern.sap.commerce.backoffice.widgets.ChangePromptEditorAreaController"/>
+</widget-definition>
