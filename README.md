@@ -30,7 +30,7 @@ modify / replace existing widgets.
 - This extension only modifies the Backoffice Editor Area so it prompts the user
   when the currently displayed item is "dirty".
 
-  This means that the list view will may a different selected item, as will the
+  This means that the list view will display a different selected item, as will the
   tree view if you change types, if the user cancels. 
 
   To prevent those changes too, one would have to create some kind of logical gate
