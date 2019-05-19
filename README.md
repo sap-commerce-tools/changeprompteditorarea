@@ -1,4 +1,5 @@
 # Change Prompt Editor Area
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W7VS24)
 
 Prompt/Warn the user that he/she will lose unsaved changes when a new item loaded.
 
